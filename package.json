@@ -1,0 +1,27 @@
+{
+  "name": "mfe-react-nextjs",
+  "version": "1.0.0",
+  "description": "It is a middle-level app, which depends on modules exposed from `remote_react` : component Nav. In the meantime, it also exposes: react, react-dom, it also exposes components: Nav to another app called `remote_react`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react_container_start": "npm --prefix ./react_container/ run start",
+    "react_container_server": "npm --prefix ./react_container/ run serve",
+    "remote_react_start": "npm --prefix ./react_container/ run start",
+    "remote_react_serve": "npm --prefix ./react_container/ run serve",
+    "start": "concurrently \"npm:react_container_start\" \"npm:react_container_server\" \"npm:remote_react_start\" \"npm:remote_react_serve\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmerHerera/mfe-react-nextjs.git"
+  },
+  "author": "Omher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmerHerera/mfe-react-nextjs/issues"
+  },
+  "homepage": "https://github.com/OmerHerera/mfe-react-nextjs#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

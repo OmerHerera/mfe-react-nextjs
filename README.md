@@ -1,3 +1,15 @@
+## Setup
+- In the Root folder run command:
+  - `npm install`
+- Navigate to react_container folder and run 
+  - `npm install`
+- Navigate to remote_react folder and run 
+  - `npm install`
+
+## Running
+- In the Root folder run command:
+  - `npm run start`
+  - Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### react_container
 
