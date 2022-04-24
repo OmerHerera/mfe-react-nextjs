@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "react_container_start": "npm --prefix ./react_container/ run start",
     "react_container_server": "npm --prefix ./react_container/ run serve",
-    "remote_react_start": "npm --prefix ./react_container/ run start",
-    "remote_react_serve": "npm --prefix ./react_container/ run serve",
+    "remote_react_start": "npm --prefix ./remote_react/ run start",
+    "remote_react_serve": "npm --prefix ./remote_react/ run serve",
     "start": "concurrently \"npm:react_container_start\" \"npm:react_container_server\" \"npm:remote_react_start\" \"npm:remote_react_serve\""
   },
   "repository": {
