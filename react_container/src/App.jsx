@@ -1,6 +1,8 @@
 import React from 'react';
 // import Nav from './components/Nav';
-import RemoveNav from 'remote_react/Nav'
+import RemoteNav from 'remote_react/Nav'
+// uncomment the following line to see the error
+// import ExposedComponent from 'remote_nextjs/ExposedComponent'
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <div>
         This is the container App
       </div>
-      <RemoveNav />
+      <RemoteNav />
     </>
       
   );

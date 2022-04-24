@@ -46,6 +46,7 @@ module.exports = {
       filename: 'remoteEntry.js',
       remotes: {
         remote_react: 'remote_react@http://localhost:3001/remoteEntry.js',
+        remote_nextjs: 'remote_nextjs@http://localhost:3002/_next/static/chunks/remoteEntry.js',
       },
       exposes: {
         './react': 'react',
